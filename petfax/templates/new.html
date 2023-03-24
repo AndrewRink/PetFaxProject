@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Fact Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Send us a Fun Fact!</h1>
+    <div class = "fact-form">
+        <form>
+            <label for="Your Name">Your Name:</label>
+            <input name="Your Name" type="text">
+            <br/>
+            <label for="Fun Fact">Fun Fact:</label>
+            <input name="Fun Fact" type="text">
+            <br/>
+            <input type="submit" value="Submit Fun Fact">
+        </form>
+    </div>
+    <a href="/pets"> Back to Home</a>
+</body>
+</html>
